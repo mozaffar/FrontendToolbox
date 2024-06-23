@@ -1,0 +1,377 @@
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.dir-rtl {
+  direction: rtl;
+}
+.dir-ltr {
+  direction: ltr;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.vertical-center-parent {
+  position: relative;
+}
+.vertical-center-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* Desktop */
+@media (min-width: 1200px) {
+  .desktop-text-left {
+    text-align: left;
+  }
+  .desktop-text-right {
+    text-align: right;
+  }
+  .desktop-text-center {
+    text-align: center;
+  }
+  .desktop-text-justify {
+    text-align: justify;
+  }
+  .desktop-dir-rtl {
+    direction: rtl;
+  }
+  .desktop-dir-ltr {
+    direction: ltr;
+  }
+  .desktop-float-left {
+    float: left;
+  }
+  .desktop-float-right {
+    float: right;
+  }
+  .dir-rtl {
+    direction: rtl;
+  }
+  .dir-ltr {
+    direction: ltr;
+  }
+}
+/* Tablet Landscape */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tablet-landscape-text-left {
+    text-align: left;
+  }
+  .tablet-landscape-text-right {
+    text-align: right;
+  }
+  .tablet-landscape-text-center {
+    text-align: center;
+  }
+  .tablet-landscape-text-justify {
+    text-align: justify;
+  }
+  .tablet-landscape-dir-rtl {
+    direction: rtl;
+  }
+  .tablet-landscape-dir-ltr {
+    direction: ltr;
+  }
+  .tablet-landscape-float-left {
+    float: left;
+  }
+  .tablet-landscape-float-right {
+    float: right;
+  }
+  .dir-rtl {
+    direction: rtl;
+  }
+  .dir-ltr {
+    direction: ltr;
+  }
+}
+/* Tablet Portrait */
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet-portrait-text-left {
+    text-align: left;
+  }
+  .tablet-portrait-text-right {
+    text-align: right;
+  }
+  .tablet-portrait-text-center {
+    text-align: center;
+  }
+  .tablet-portrait-text-justify {
+    text-align: justify;
+  }
+  .tablet-portrait-dir-rtl {
+    direction: rtl;
+  }
+  .tablet-portrait-dir-ltr {
+    direction: ltr;
+  }
+  .tablet-portrait-float-left {
+    float: left;
+  }
+  .tablet-portrait-float-right {
+    float: right;
+  }
+  .dir-rtl {
+    direction: rtl;
+  }
+  .dir-ltr {
+    direction: ltr;
+  }
+}
+/* Phone Landscape */
+@media (min-width: 576px) and (max-width: 767px) {
+  .phone-landscape-text-left {
+    text-align: left;
+  }
+  .phone-landscape-text-right {
+    text-align: right;
+  }
+  .phone-landscape-text-center {
+    text-align: center;
+  }
+  .phone-landscape-text-justify {
+    text-align: justify;
+  }
+  .phone-landscape-dir-rtl {
+    direction: rtl;
+  }
+  .phone-landscape-dir-ltr {
+    direction: ltr;
+  }
+  .phone-landscape-float-left {
+    float: left;
+  }
+  .phone-landscape-float-right {
+    float: right;
+  }
+}
+/* Phone Portrait */
+@media (max-width: 575px) {
+  .phone-portrait-text-left {
+    text-align: left;
+  }
+  .phone-portrait-text-right {
+    text-align: right;
+  }
+  .phone-portrait-text-center {
+    text-align: center;
+  }
+  .phone-portrait-text-justify {
+    text-align: justify;
+  }
+  .phone-portrait-dir-rtl {
+    direction: rtl;
+  }
+  .phone-portrait-dir-ltr {
+    direction: ltr;
+  }
+  .phone-portrait-float-left {
+    float: left;
+  }
+  .phone-portrait-float-right {
+    float: right;
+  }
+}
+/* Tablet Only */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .tablet-only-text-left {
+    text-align: left;
+  }
+  .tablet-only-text-right {
+    text-align: right;
+  }
+  .tablet-only-text-center {
+    text-align: center;
+  }
+  .tablet-only-text-justify {
+    text-align: justify;
+  }
+  .tablet-only-dir-rtl {
+    direction: rtl;
+  }
+  .tablet-only-dir-ltr {
+    direction: ltr;
+  }
+  .tablet-only-float-left {
+    float: left;
+  }
+  .tablet-only-float-right {
+    float: right;
+  }
+}
+/* Phone Only */
+@media (max-width: 767px) {
+  .phone-only-text-left {
+    text-align: left;
+  }
+  .phone-only-text-right {
+    text-align: right;
+  }
+  .phone-only-text-center {
+    text-align: center;
+  }
+  .phone-only-text-justify {
+    text-align: justify;
+  }
+  .phone-only-dir-rtl {
+    direction: rtl;
+  }
+  .phone-only-dir-ltr {
+    direction: ltr;
+  }
+  .phone-only-float-left {
+    float: left;
+  }
+  .phone-only-float-right {
+    float: right;
+  }
+}
+/* Landscape Medias */
+@media (orientation: landscape) {
+  .landscape-only-text-left {
+    text-align: left;
+  }
+  .landscape-only-text-right {
+    text-align: right;
+  }
+  .landscape-only-text-center {
+    text-align: center;
+  }
+  .landscape-only-text-justify {
+    text-align: justify;
+  }
+  .landscape-only-dir-rtl {
+    direction: rtl;
+  }
+  .landscape-only-dir-ltr {
+    direction: ltr;
+  }
+  .landscape-only-float-left {
+    float: left;
+  }
+  .landscape-only-float-right {
+    float: right;
+  }
+}
+/* Portrait Medias */
+@media (orientation: portrait) {
+  .portrait-only-text-left {
+    text-align: left;
+  }
+  .portrait-only-text-right {
+    text-align: right;
+  }
+  .portrait-only-text-center {
+    text-align: center;
+  }
+  .portrait-only-text-justify {
+    text-align: justify;
+  }
+  .portrait-only-dir-rtl {
+    direction: rtl;
+  }
+  .portrait-only-dir-ltr {
+    direction: ltr;
+  }
+  .portrait-only-float-left {
+    float: left;
+  }
+  .portrait-only-float-right {
+    float: right;
+  }
+}
+/* Tablet Landscape and Above */
+@media (min-width: 992px) {
+  .tablet-landscape-and-above-text-left {
+    text-align: left;
+  }
+  .tablet-landscape-and-above-text-right {
+    text-align: right;
+  }
+  .tablet-landscape-and-above-text-center {
+    text-align: center;
+  }
+  .tablet-landscape-and-above-text-justify {
+    text-align: justify;
+  }
+  .tablet-landscape-and-above-dir-rtl {
+    direction: rtl;
+  }
+  .tablet-landscape-and-above-dir-ltr {
+    direction: ltr;
+  }
+  .tablet-landscape-and-above-float-left {
+    float: left;
+  }
+  .tablet-landscape-and-above-float-right {
+    float: right;
+  }
+}
+/* Tablet Portrait and Above */
+@media (min-width: 768px) {
+  .tablet-portrait-and-above-text-left {
+    text-align: left;
+  }
+  .tablet-portrait-and-above-text-right {
+    text-align: right;
+  }
+  .tablet-portrait-and-above-text-center {
+    text-align: center;
+  }
+  .tablet-portrait-and-above-text-justify {
+    text-align: justify;
+  }
+  .tablet-portrait-and-above-dir-rtl {
+    direction: rtl;
+  }
+  .tablet-portrait-and-above-dir-ltr {
+    direction: ltr;
+  }
+  .tablet-portrait-and-above-float-left {
+    float: left;
+  }
+  .tablet-portrait-and-above-float-right {
+    float: right;
+  }
+}
+/* Phone Landscape and Above */
+@media (min-width: 576px) {
+  .tablet-portrait-and-above-text-left {
+    text-align: left;
+  }
+  .tablet-portrait-and-above-text-right {
+    text-align: right;
+  }
+  .tablet-portrait-and-above-text-center {
+    text-align: center;
+  }
+  .tablet-portrait-and-above-text-justify {
+    text-align: justify;
+  }
+  .tablet-portrait-and-above-dir-rtl {
+    direction: rtl;
+  }
+  .tablet-portrait-and-above-dir-ltr {
+    direction: ltr;
+  }
+  .tablet-portrait-and-above-float-left {
+    float: left;
+  }
+  .tablet-portrait-and-above-float-right {
+    float: right;
+  }
+}
+/*# sourceMappingURL=alignments.css.map */
